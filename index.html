@@ -145,14 +145,10 @@
         </div>
       </aside>
 
-      <!--
-      - #main-content
-    -->
+      <!--- #main-content -->
 
       <div class="main-content">
-        <!--
-        - #NAVBAR
-      -->
+        <!--- #NAVBAR -->
 
         <nav class="navbar">
           <ul class="navbar-list">
@@ -173,9 +169,7 @@
           </ul>
         </nav>
 
-        <!--
-        - #ABOUT
-      -->
+        <!--- #ABOUT -->
 
         <article class="about active" data-page="about">
           <header>
@@ -304,13 +298,11 @@
                         alt="Github"
                         width="20"
                         data-testimonials-avatar
-                    /></a>
+                      />
+                    </a>
                   </figure>
 
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>
                     Github
                   </h4>
 
@@ -465,9 +457,7 @@
           </div>
         </article>
 
-        <!--
-        - #RESUME
-      -->
+        <!--- #RESUME -->
 
         <article class="resume" data-page="resume">
           <header>
@@ -637,9 +627,7 @@
           </section>
         </article>
 
-        <!--
-        - #Projects
-      -->
+        <!--- #Projects -->
 
         <article class="projects" data-page="projects">
           <header>
@@ -696,7 +684,56 @@
             </div>
 
             <ul class="project-list">
-                <li
+               <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://healthcare-dashboard-amber.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/pro-heathcare.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                   Healthcare Dashboard
+                  </h3>
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://employee-managment-system-6id7.vercel.app">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/pro-ems.png"
+                      alt="ems image"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">EMS-Emlpoye Managment System</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
                 class="project-item active"
                 data-filter-item
                 data-category="applications"
@@ -719,6 +756,7 @@
                   <p class="project-category">Applications</p>
                 </a>
               </li>
+
               <li
                 class="project-item active"
                 data-filter-item
@@ -744,6 +782,7 @@
                   <p class="project-category">Web design</p>
                 </a>
               </li>
+
               <li
                 class="project-item active"
                 data-filter-item
@@ -914,7 +953,7 @@
                   <p class="project-category">web Design</p>
                 </a>
               </li>
-          
+
               <li
                 class="project-item active"
                 data-filter-item
@@ -944,9 +983,7 @@
           </section>
         </article>
 
-        <!--
-        - #CONTACT
-      -->
+        <!--- #CONTACT -->
 
         <article class="contact" data-page="contact">
           <header>
@@ -1012,21 +1049,13 @@
       </div>
     </main>
 
-    <!--
-    - custom js link
-  -->
+    <!--- custom js link -->
     <script src="./assets/js/script.js"></script>
 
-    <!--
-    - ionicon link
-  -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <!--- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+  </script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
